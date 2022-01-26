@@ -1,0 +1,19 @@
+Magroove Tech Test:
+
+This is a very simple test to assess your ability to learn by yourself.
+
+Goal: 
+
+Learn to use the Python libraries Requests and BeautifulSoup. Your script can be written using python 2 or 3.
+
+Steps:
+
+- Create a Python script that gets the HTML source of this page: https://qz.com/africa/latest/ using the requests library.
+- Your program must print the title and the link of all articles on the page
+- You can follow this format : 
+	Title: {article_title}
+	Link: {article_link}\n
+
+Pro-tip:
+
+Article titles on that page are wrapped in 'h3' tags. The corresponding links are 'a' tags wrapping those 'h3' tags.
